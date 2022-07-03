@@ -1,4 +1,6 @@
 {% extends "base.html.jinja" %}
-{% block content %}
-    <p>index.html.jinja</p>
-{% endblock content %}
+{% block onepagecontent %}
+
+    {{ markdowncontent|safe }}
+
+{% endblock onepagecontent %}
