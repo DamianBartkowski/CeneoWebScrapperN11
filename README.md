@@ -37,11 +37,23 @@
         1. udział poszczególnych rekomendacji ww ogólnej liczbie opinii
         2. histogram czestości wystąpień poszczególnych ocen (liczba gwiazdek) 
 ## Etapy pracy nad projektem (Wersja obiektowa)
-
+1. dodanie odpowiednich częsci kodu z wersji strukturalnej do obiektowej<br>
+2. podłączenie routingu<br>
+3. uruchomienie flask i jinja<br>
+4. dodanie poszczególnych stron odwołujących się do bazy<br>
+5. dodanie funkcjonalnosci<br>
+1. działający eskalator<br>
+2. plik readme.md pojawiający się na stronie głownej<br>
 
 ## Wykorzystanie bibliotek
 json - syntax umożliwiający przechowywanie i zapisywanie plików .json<br>
 matplotlib - wizualizacja danych<br> 
+requests - obsługuje HTTP, wysyłanie i odbieranie requestów<br>
+pandas - analiza i modygikacja danych<br>
+numpy - analiza danych<br>
+markdown - obsługa plików w formacie HTML<br>
+bs4 - pobieranie danych z plików HTML i XML<br>
+flask - framework do tworzenia aplikacji internetowej
 
 
 
